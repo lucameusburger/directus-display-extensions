@@ -1,0 +1,28 @@
+{
+  "name": "display-link",
+  "version": "1.0.0",
+  "description": "Display a link",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "directus",
+    "directus-display",
+    "custom-display",
+    "vue",
+    "vuejs"
+  ],
+  "author": "Luca Meusburger",
+  "license": "ISC",
+  "devDependencies": {
+    "@directus/extensions-sdk": "^9.0.1"
+  },
+  "directus:extension": {
+    "type": "display",
+    "path": "dist/index.js",
+    "source": "src/index.js",
+    "host": "^9.0.0-rc.87",
+    "hidden": false
+  }
+}
