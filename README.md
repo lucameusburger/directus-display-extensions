@@ -1,4 +1,4 @@
-# directus-display-extensions
+# 🐰 🖥 👍 directus-display-extensions
 
 Some useful display extensions for 🐰 directus9!
 
