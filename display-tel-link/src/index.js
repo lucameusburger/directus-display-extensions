@@ -6,5 +6,5 @@ export default {
   description: 'Display as a clickable tel-link',
   icon: 'link',
   component: DisplayComponent,
-  types: ['string'],
+  types: ['string', 'text'],
 };
